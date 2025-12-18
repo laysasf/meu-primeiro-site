@@ -1,0 +1,100 @@
+body
+{
+ background-color:#5D0304
+}
+
+h1,h2,h3,h4
+{
+ font-family:Ariel;
+color:#FE9900;
+}
+
+p
+{
+ font-size:20px;
+color:#E8E8E8;
+}
+
+li
+{
+ font-family:Comic Sans MS; Ariel
+} 
+
+section
+{
+ background-color#FFF6F6;
+ font-family:Comic Sans MS; Ariel
+ pedding:1px;
+}
+
+footer
+{
+ background-color:#DEDEDE
+ font-family:Comic Sans MS; Ariel
+ pedding:42px;
+ color:
+}
+nav
+{
+background-color:#DEDEDE
+height:10px;
+font-family:
+font-weight:bold;
+}
+nav ul
+{
+height:auto;
+margin:0px;
+padding:10px 2;
+background-color:#950707;
+}
+ nav li
+{
+display:inline;
+padding:20px;
+margin:0px;
+}
+
+nav a
+{
+text-decoration: none;
+color:#DEDEDE
+padding:8px 8px 8px 8px
+}
+
+nav a:hover
+{
+background-color:#FFFFFF;
+color:#000055;
+}
+ 
+@media all and (min-width:960px)
+{
+body
+{
+width:960px;
+margin:auto;
+}
+}
+
+@media all and (max-width:640px)
+{
+nav
+{
+height:100%;
+}
+
+nav li
+{
+display:block;
+padding:10px;
+margin:0px;
+}
+}
+
+figure
+{
+width:960px;
+padding:10px;
+margin:0px;
+}
